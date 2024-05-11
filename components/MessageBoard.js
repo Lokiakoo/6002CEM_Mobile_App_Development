@@ -214,8 +214,8 @@ export default function MessageBoard() {
                   {msg.message}
                 </Text>
                 <Text style={{ color: 'rgba(125, 125, 125, 0.9)' }}>
-                  {msg.address.town ? `${msg.address.town}` : null}
-                  {msg.address.city ? `${msg.address.city}` : null}
+                  {msg.address.town ? `${msg.address.town},` : null}
+                  {msg.address.city ? `${msg.address.city},` : null}
                   {msg.address.state ? `${msg.address.state}` : null}
                 </Text>
                 <Text style={{ color: 'rgba(125, 125, 125, 0.9)' }}>
