@@ -3,14 +3,10 @@
 ## Morse Buddy
 
 <div style="display: flex;">
-    <img src="https://github.com/Lokiakoo/6002CEM_Mobile_App_Development/assets/111053407/0f5cbd98-c989-4f7f-9374-2a32eb97191c" alt="layout1" style="width: 300px; height: 636px; object-fit: contain;">
-    <img src="https://github.com/Lokiakoo/6002CEM_Mobile_App_Development/assets/111053407/caf25f9e-6fd0-42df-87a2-5fcea70a9176" alt="layout2" style="width: 300px; height: 636px; object-fit: contain;">
-    <img src="https://github.com/Lokiakoo/6002CEM_Mobile_App_Development/assets/111053407/5e31b006-7723-4bef-8c8b-5002a70e5a44" alt="layout3" style="width: 300px; height: 636px; object-fit: contain;">
+    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/111053407/341665605-6675c9aa-ce93-4c51-a1d4-75800c7e158c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240621T063842Z&X-Amz-Expires=300&X-Amz-Signature=1ef16cadf4ccb13543e477596cc57776d1fd89837c940b207bfcc98445e966e7&X-Amz-SignedHeaders=host&actor_id=111053407&key_id=0&repo_id=799166496" alt="layoutMain">
 </div>
-<div style="display: flex;">
-    <img src="https://github.com/Lokiakoo/6002CEM_Mobile_App_Development/assets/111053407/cc72e429-428d-4670-b182-0ad26a847e03" alt="layout5" style="width: 300px; height: 636px; object-fit: contain;">
-    <img src="https://github.com/Lokiakoo/6002CEM_Mobile_App_Development/assets/111053407/ecb91103-4409-4a78-9cc7-f6fa8582f97d" alt="layout4" style="width: 300px; height: 636px; object-fit: contain;">
-</div>
+
+
 
 This is a cross-platform mobile app project that develop in Expo Go platform with React Native.
 
