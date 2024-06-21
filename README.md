@@ -14,6 +14,7 @@ A few things to note in the project:
 * **React Native** - The project is developed using React Native, a popular framework for building cross-platform mobile applications.
 * **NodeJS** - The project utilizes NodeJS.
 * **MongoDB** - MongoDB is the chosen database management system for this project.
+* **Image to text API** - Detects and extracts text from images using state-of-the-art optical character recognition (OCR) algorithms. It can detect texts of different sizes, fonts, and even handwriting.
 * **Alibaba Cloud server** - The project leverages Alibaba Cloud server, specifically Alibaba Function Compute, to handle endpoints and perform serverless computing tasks.
 
 ## Getting Started
