@@ -127,7 +127,7 @@ export default function Page1() {
         }}
       />
 
-      <FlatList style={{  width: '100%', height: '100%', justifyContent: 'center'}}
+      <FlatList style={{ width: '100%', height: '100%', justifyContent: 'center' }}
         data={Object.entries(morseCodeNumberData).concat(
           Object.entries(morseCodedata)
         )}

@@ -6,8 +6,9 @@ import { MaterialIcons } from '@expo/vector-icons';
 const Tab = createBottomTabNavigator();
 
 import MorseCodePattern from './components/MorseCodePattern';
-import Convert from './components/Convert';
+import Convert from './components/Convert'; 
 import MessageBoard from './components/MessageBoard';
+import ImageToText from './components/ImageToText'
 
 export default function App() {
   return (
@@ -33,6 +34,16 @@ export default function App() {
             options={{
               tabBarIcon: () => (
                 <Ionicons name="school" size={30} color="black" />
+              ),
+              tabBarActiveTintColor: 'blue',
+            }}
+          />
+           <Tab.Screen
+            name="Image"
+            component={ImageToText}
+            options={{
+              tabBarIcon: () => (
+                <Ionicons name="school-outline" size={30} color="black" />
               ),
               tabBarActiveTintColor: 'blue',
             }}

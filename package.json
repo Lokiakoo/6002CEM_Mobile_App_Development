@@ -1,5 +1,5 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -7,13 +7,17 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo-camera": "~15.0.6",
+    "expo": "~51.0.14",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.2",
+    "expo-camera": "~15.0.10",
     "expo-speech": "~12.0.2",
     "expo-haptics": "~13.0.1",
     "expo-location": "~17.0.1",
-    "expo-status-bar": "~1.12.1",
     "react-native-tts": "*",
     "@expo/vector-icons": "^14.0.0",
+    "expo-media-library": "~16.0.3",
     "react-native-paper": "4.9.2",
     "react-native-screens": "3.31.1",
     "@react-navigation/native": "*",
