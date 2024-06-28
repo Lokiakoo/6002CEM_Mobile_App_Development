@@ -24,7 +24,7 @@ export default function App() {
   }
 
   if (!permission.granted) {
-    return 
+    return (
       <View style={{height: '100%', width: '100%', justifyContent: 'center'}}>
         <Text style={{ textAlign: 'center' }}>
           We need your permission to show the camera
