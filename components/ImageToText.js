@@ -42,7 +42,7 @@ export default function App() {
     if (cameraRef.current) {
       try {
         const { uri } = await cameraRef.current.takePictureAsync();
-        //await MediaLibrary.saveToLibraryAsync(uri);
+        await MediaLibrary.saveToLibraryAsync(uri);
         console.log('Photo saved to camera roll');
         console.log(uri);
         sendImageToAPI(uri);
